@@ -19,7 +19,7 @@ We use the display: flex; property in our CSS of a Parent element to allow us to
 We use flex-direction to specify whether we want all of the Child elements arranged in either a row or a column. The default for flex-direction is row, but if you want your elements in a column, use flex-direction:column; in your Parent element CSS to apply that change.
 
 ### flex-direction: row
-![flex direction row](/flexrow.png)
+![flex direction row](flexrow.png)
 
 ## Justify-Content
 
