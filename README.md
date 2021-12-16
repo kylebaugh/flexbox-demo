@@ -93,3 +93,76 @@ Centers Child elements along the given axis
 
 ![align-items: center](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/alignCenter.png)
 
+
+## Additional Examples
+
+Displays Child elements in a column, spaced evenly, and center aligned.
+
+```
+.outerBox{
+    width: 400px;
+    height: 400px; 
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+```
+
+![additional one](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/additional1.png)
+
+
+Displays Child elements in a row, spaced between, and center aligned.
+
+```
+.outerBox{
+    width: 400px;
+    height: 400px; 
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+```
+
+![additional two](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/additional2.png)
+
+
+Adding align-self properties to Child elements will allow you to change how they are aligned within their Parent element.
+
+.outerBox is set to display its Child elements in a column, spaced between, and center aligned.
+
+.topBox and .bottomBox are overwritting their alignment by using align-self
+
+```
+.outerBox{
+    width: 400px;
+    height: 400px; 
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topBox{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    align-self: flex-start;
+}
+
+.bottomBox{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    align-self: flex-end;
+}
+```
+
+![additional one](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/additional3.png)
+
+## Conclusion
+
+There is so much more that you can do with Flexbox, but this should be a good place for you to get started!  
