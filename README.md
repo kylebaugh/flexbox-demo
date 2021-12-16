@@ -19,10 +19,10 @@ We use the display: flex; property in our CSS of a Parent element to allow us to
 We use flex-direction to specify whether we want all of the Child elements arranged in either a row or a column. The default for flex-direction is row, but if you want your elements in a column, use flex-direction:column; in your Parent element CSS to apply that change.
 
 ### flex-direction: row
-![flex direction row](https://github.com/kylebaugh/flexbox-demo/blob/pictures/flexRow.png)
+![flex direction row](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/flexRow.png)
 
 ### flex-direction: column
-![flex direction column](https://github.com/kylebaugh/flexbox-demo/blob/pictures/flexColumn.png)
+![flex direction column](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/flexColumn.png)
 
 ## Justify-Content
 
@@ -36,35 +36,35 @@ There are a handful of values we can add to the justify-content property:
 
 Places all Child elements adjacent to each other, with no spaces, at the “beginning” of the Parent element - either top or left - depending on the flex-direction
 
-![flex direction column](https://github.com/kylebaugh/flexbox-demo/blob/pictures/justifyStart.png)
+![justify-content:flex-start](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/justifyStart.png)
 
 
 ### justify-content: flex-end
 
 Places all Child elements adjacent to each other, with no spaces, at the “end” of the parent element - either bottom or right - depending on the flex-direction
 
-![flex direction column](https://github.com/kylebaugh/flexbox-demo/blob/pictures/justifyEnd.png)
+![justify-content:flex-end](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/justifyEnd.png)
 
 
 ### justify-content: center
 
 Places all Child elements adjacent to each other, with no spaces, at the “center” of the Parent element - either horizontally or vertically - depending on the flex-direction
 
-![flex direction column](https://github.com/kylebaugh/flexbox-demo/blob/pictures/justifyCenter.png)
+![justify-content:center](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/justifyCenter.png)
 
 
 ### justify-content: space-between
 
 Spaces all Child elements with as much space between them as possible, pushing them all the way to the padding of the Parent element. 
 
-![flex direction column](https://github.com/kylebaugh/flexbox-demo/blob/pictures/justifyBetween.png)
+![justify-content:space-between](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/justifyBetween.png)
 
 
 ### justify-content: space-evenly
 
 Spaces all Child elements space between them AND the padding of the Parent element.
 
-![flex direction column](https://github.com/kylebaugh/flexbox-demo/blob/pictures/justifyEvenly.png)
+![justify-content:space-evenly](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/justifyEvenly.png)
 
 
 ## Align-Items 
@@ -77,19 +77,19 @@ With align-items, we only have three values that we usually use. Since we’ve a
 ### align-items: flex-start
 Aligns Child elements at the “beginning” of the Parent element - either top or left - depending on the flex-direction. This is the default-setting for this parameter.
 
-![flex direction column](https://github.com/kylebaugh/flexbox-demo/blob/pictures/alignStart.png)
+![align-items:flex-start](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/flexRow.png)
 
 
 ### align-items: flex-end
 
 Aligns Child elements at the “end” of the Parent element - either bottom or right - depending on the flex-direction
 
-![flex direction column](https://github.com/kylebaugh/flexbox-demo/blob/pictures/alignEnd.png)
+![align-items:flex-end](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/alignEnd.png)
 
 
 ### align-items: center
 
 Centers Child elements along the given axis
 
-![flex direction column](https://github.com/kylebaugh/flexbox-demo/blob/pictures/alignCenter.png)
+![align-items:center](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/alignCenter.png)
 
