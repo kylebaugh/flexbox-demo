@@ -1,0 +1,29 @@
+.outerBox{
+    width: 400px;
+    height: 400px; 
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+}
+
+    /* flex-direction: column; */
+
+.topBox{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    /* align-self: flex-start; */
+}
+
+.middleBox{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+
+}
+
+.bottomBox{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
