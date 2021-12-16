@@ -77,7 +77,7 @@ With align-items, we only have three values that we usually use. Since we’ve a
 ### align-items: flex-start
 Aligns Child elements at the “beginning” of the Parent element - either top or left - depending on the flex-direction. This is the default-setting for this parameter.
 
-![align-items:flex-start](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/flexRow.png)
+![align-items:flex-start](https://github.com/kylebaugh/flexbox-demo/blob/main/pictures/alignStart.png)
 
 
 ### align-items: flex-end
